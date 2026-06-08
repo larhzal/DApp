@@ -1,8 +1,7 @@
 import BlockChainInfos from "../utils/blockChainInfos";
 import "../styles/exercise.css";
-function BlockchainInfoSide() {
 
-    const blockChainInfo = BlockChainInfos();
+function BlockchainInfoSide({ blockChainInfo }) {
     
     function formatTimestamp(ts) {
         if (!ts) return "Date inconnue";

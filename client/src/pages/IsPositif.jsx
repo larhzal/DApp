@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import IsPositifContract from "../contracts/IsPositif.json";
 import { loadContract } from "../utils/loadContract";
 import BlockChainInfos from "../utils/blockChainInfos";
+import BlcokChaintPanel from "../components/BlockchainInfoSide";
 import "../styles/exercise.css";
 
 
@@ -72,7 +73,9 @@ function IsPositif() {
                         </section>
                     </div>
 
-                    <div className="ex-right">
+                    <BlcokChaintPanel blockChainInfo={blockChainInfo} />
+
+                    {/* <div className="ex-right">
                         <p className="ex-label">INFORMATIONS BLOCKCHAIN</p>
 
                         <div className="ex-info-card">
@@ -220,7 +223,7 @@ function IsPositif() {
                                 ))}
                             </div>
                         )}
-                    </div>
+                    </div> */}
                 </div>
             </div>
 
