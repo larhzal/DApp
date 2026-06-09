@@ -20,6 +20,4 @@ contract Addition {
   function addition2(uint _a, uint _b) public pure returns (uint){
     return _a +_b;
   }
-
-  
 }

@@ -6,3 +6,4 @@ contract IsPositif {
     return _number > 0;
   }
 }
+

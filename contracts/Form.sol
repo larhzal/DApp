@@ -23,7 +23,6 @@ abstract contract Form {
     return "Je suis une forme";
   }
 
-  function area() public view virtual returns (uint);
-
-  
+  function area() public view virtual returns (uint); 
 }
+

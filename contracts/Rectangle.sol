@@ -22,6 +22,5 @@ contract Rectangle is Form {
   function displayWidthHeight() public view returns (uint, uint){
     return (width, height);
   }
-
-
 }
+

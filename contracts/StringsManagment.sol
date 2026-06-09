@@ -27,5 +27,6 @@ contract StringsManagment {
   function compare(string memory _message1, string memory _message2) public pure returns (bool){
     return keccak256(bytes(_message1)) == keccak256(bytes(_message2));
   }
-
 }
+
+

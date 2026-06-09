@@ -10,5 +10,6 @@ contract CryptoConvert {
   function weiToEther(uint _wei) public pure returns (uint){
     return _wei / 1 ether;
   }
-
 }
+
+
